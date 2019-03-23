@@ -23,10 +23,11 @@ namespace BethanyPieShop.Controllers
         {
 
             var pies = _pieRepository.GetAllPies().OrderBy(p => p.Name);
-            var homeViewModel = new HomeViewModels()
+            var homeViewModel = new HomeViewModel()
             {
-                Title = "Welcome To Bethany's Pie Shop",
-                Pies = pies.ToList()
+                Pies = pies.ToList(),
+                Title = "Welcome To Bethany's Pie Shop"
+
             };
 
             return View(homeViewModel);

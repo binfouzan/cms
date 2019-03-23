@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cms", "cms\cms.csproj", "{F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BethanyPieShop", "BethanyPieShop\BethanyPieShop.csproj", "{34D6D98B-CE59-4A26-9E67-E03EFC868C8D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealEstat", "RealEstat\RealEstat.csproj", "{D471CC9C-D7F9-442C-8CF4-B8D4D10D87C9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{34D6D98B-CE59-4A26-9E67-E03EFC868C8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34D6D98B-CE59-4A26-9E67-E03EFC868C8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34D6D98B-CE59-4A26-9E67-E03EFC868C8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D471CC9C-D7F9-442C-8CF4-B8D4D10D87C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D471CC9C-D7F9-442C-8CF4-B8D4D10D87C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D471CC9C-D7F9-442C-8CF4-B8D4D10D87C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D471CC9C-D7F9-442C-8CF4-B8D4D10D87C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
